@@ -3,6 +3,10 @@
 ## Overview
 The main goal of this workflow is to assess which metrics fare best when a clean target is not available for comparison. To this end, we generate some fake scientific images (specifically ARPES) and apply different levels of Poisson noise on it.
 
+Please take a look at [notebook](https://github.com/zain-sohail/noisy-iqa/blob/main/metric_comparison.ipynb) for the complete experiments. 
+
+The image quality metrics assessed are SSIM, MS-SSIM, VSI, and FSIM.
+
 ## Installation
 
 1. Clone repository:
